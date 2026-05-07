@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemestone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Gradient Text */
+    .gradient-text {
+      background: linear-gradient(45deg, black, black, rgb(255, 174, 0), black, black);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    /* Page4 hover */
+    .award-box:hover {
+      background-color: #2a2a2a;
+      color: #fff;
+    }
+    .award-box:hover .part2 {
+      transform: rotate(375deg);
+      color: yellow;
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden">
+
+  <!-- Page 1 -->
+  <div class="min-h-[125vh] w-screen bg-[#ecf6fc]">
+    <nav class="h-[17vh] flex justify-between items-center w-[97vw] mx-auto">
+      <div class="left">
+        <ul class="flex gap-14 text-sm font-sans">
+          <li><a href="#" class="hover:text-orange-500">Home</a></li>
+          <li><a href="#" class="hover:text-orange-500">Product</a></li>
+          <li><a href="#" class="hover:text-orange-500">Discover</a></li>
+          <li><a href="index3.html" class="hover:text-orange-500">Shop</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-6">
+        <div class="flex items-center justify-center text-sm font-sans cursor-pointer">Login</div>
+        <div class="flex items-center justify-center text-sm font-sans w-[90px] h-[50px] bg-orange-500 cursor-pointer">Sign Up</div>
+      </div>
+    </nav>
+
+    <main class="h-[87vh]">
+      <div class="flex flex-col items-center justify-center h-[280px] text-[73px] tracking-[-2px] gap-2 gradient-text">
+        <h1>MINDFUL WAY FOR</h1>
+        <h1>ELEGANCY GEMESTONE</h1>
+      </div>
+
+      <div class="relative -top-10 flex justify-around items-center">
+        <!-- Left -->
+        <div class="flex flex-col self-start gap-4">
+          <div class="bg-black text-white text-center px-4 py-3 rounded-lg cursor-pointer">xxx</div>
+          <ul class="flex gap-2">
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+          </ul>
+          <ul class="flex gap-2">
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+          </ul>
+        </div>
+
+        <!-- Center -->
+        <div><img src="a.webp" class="h-[500px] w-[400px]" alt=""></div>
+
+        <!-- Right -->
+        <div class="w-[250px] -ml-6">
+          <div class="text-lg mb-1">Gold bracelet with diamond casino</div>
+          <div class="text-sm font-light text-gray-700">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quia excepturi enim praesentium possimus.
+          </div>
+          <div class="mt-5 border border-black px-3 py-2 w-fit font-bold text-sm cursor-pointer">Discover More</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Page 2 -->
+  <div class="h-screen w-screen bg-white flex justify-center items-center gap-14">
+    <div class="w-[45vw] h-full flex flex-col justify-between">
+      <table class="w-full mt-8">
+        <tr class="flex justify-around">
+          <th class="text-2xl">10+</th>
+          <th class="text-2xl">20+</th>
+          <th class="text-2xl">598</th>
+        </tr>
+        <tr class="flex justify-around text-gray-600 font-light text-sm">
+          <td>All Over World</td>
+          <td>Product Available</td>
+          <td>Product Reviews</td>
+        </tr>
+      </table>
+
+      <div class="relative w-[95%] h-[63%] self-center flex gap-2 overflow-hidden -bottom-5">
+        <div class="w-1/2 flex flex-col gap-2">
+          <img src="s.jpg" class="h-1/2 object-cover">
+          <img src="s.jpg" class="h-1/2 object-cover">
+        </div>
+        <img src="s.jpg" class="w-1/2 object-fill">
+        <div class="absolute left-[38%] self-center h-20 w-20 bg-neutral-900 rounded-full border-[15px] border-white z-10"></div>
+      </div>
+    </div>
+
+    <div class="w-[45vw] h-full flex flex-col justify-between">
+      <div class="text-4xl w-[90%] mt-5 gradient-text border-2">We Offer The Best Elegant Style</div>
+      <div class="relative -bottom-14 flex flex-col gap-6 w-[45vw]">
+        <div class="text-orange-500 text-lg">About Product</div>
+        <div class="text-[56px] leading-none gradient-text w-[90%]">Our Products are The World's Best Jewelry</div>
+        <div class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laboriosam perspiciatis dolorum nisi.</div>
+        <div class="border border-black w-[150px] h-10 flex items-center justify-center cursor-pointer">Check Verify</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 3 ... (similar cleanup continues) -->
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Pakistan - Watch TV Shows Online, Watch Movies Online</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        main {
+            background-image: url(PK-en-20250602-TRIFECTA-perspective_aa6ff60c-bec9-4b25-8947-22d4d40344fc_large.jpg);
+            height: 70vh;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: max(1200px, 100vw);
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        nav>.logo>img {
+            height: 62px;
+            width: 122px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .box {
+            position: absolute;
+            top: 0px;
+            height: 80vh;
+            width: 100%;
+            background-color: black;
+            opacity: 0.44;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            position: relative;
+            gap: 13px;
+        }
+
+        .content>span:first-child {
+            font-size: 29px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 900;
+        }
+
+        .content>span:nth-child(2) {
+            font-weight: 400;
+            font-size: 23px;
+        }
+
+        .content>span:nth-child(3) {
+            font-weight: 400;
+            font-size: 17px;
+        }
+
+        button {
+            padding: 2px;
+            padding-left: 4px;
+            padding-right: 4px;
+            position: relative;
+            z-index: 10;
+            border-radius: 5px;
+            height: 2rem;
+        }
+
+        .button>button:nth-child(1) {
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(91, 86, 86);
+            width: 5.5rem;
+            margin-right: 10px;
+        }
+
+        .button>button:nth-child(2) {
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+            margin-right: 10px;
+            width: 3.5rem;
+        }
+
+        .searchbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .searchbox>input {
+            height: 35px;
+            width: 255px;
+            background-color: rgb(39, 33, 33);
+            opacity: 0.74;
+            border: 1px solid rgb(67, 61, 61);
+            color: white;
+
+
+        }
+
+        .searchbox>button {
+            height: 41px;
+            width: 112px;
+            margin-left: 4px;
+            background-color: rgb(228, 0, 0);
+            color: white;
+        }
+
+        section {
+            position: relative;
+            height: 450px;
+            width: 100vw;
+            border: 3px solid rgb(129, 122, 122);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .first {
+            position: absolute;
+            height: 100%;
+            width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        .first h1 {
+            font-family: sans-serif;
+            font-size: xx-large;
+            color: white;
+        }
+
+        .first p {
+            color: aliceblue;
+            font-size: 0.90em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 50px;
+        }
+
+        .image {
+            position: relative;
+        }
+
+        .first>img {
+            position: relative;
+            width: 270px;
+        }
+
+        .image>video {
+            position: absolute;
+            top: -10px;
+            left: -33px;
+            z-index: -1;
+            width: 338px;
+            height: 211px;
+        }
+
+        .second {
+            /* position: absolute; */
+            margin-left: 100px;
+            height: 100%;
+            width: 60vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .second h1 {
+            font-family: sans-serif;
+            font-size: xx-large;
+            color: white;
+        }
+
+        .second p {
+            color: aliceblue;
+            font-size: 0.90em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 50px;
+        }
+
+        .second img {
+            position: relative;
+            height: 200px;
+            margin-right: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .second img::after{
+            content: '';
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <img src="Netflix_Logo_PMS.png" alt="">
+            </div>
+            <div class="button">
+                <button>English</button>
+                <button>Sign in</button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="content">
+            <span>Enjoy Big movies, hit Series and more from $149</span>
+            <span>Join today.Cancel anytime</span>
+            <span>Ready to watch?Enter to Create or restart your membership</span>
+            <div class="searchbox">
+                <input type="text" placeholder="Enter Email Adress">
+                <button>Get Started ></button>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="first">
+            <div class="content2">
+                <h1>Enjoy on Your Tv</h1>
+                <p>Enjoy your Tv Watch on smart TVs,Playstation,Xbox,Chromecast,Apple Tv,Blue-ray Players and more</p>
+            </div>
+            <div class="image">
+                <img src="a-removebg-preview.png" alt="">
+                <video src="Fiverr - Freelance services marketplace - Find top global talent_2.mp4" muted autoplay
+                    loop></video>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="second">
+            <div class="image">
+                <img src="c.jpg" alt="">
+            </div>
+            <div class="content2">
+                <h1>Download your shows to watch offline</h1>
+                <p>Save your favourites easily and always have sometthing to watch</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        ss
+    </section>
+    <section>
+        ss
+    </section>
+</body>
+
+</html>

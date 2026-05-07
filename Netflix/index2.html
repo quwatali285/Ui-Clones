@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        main {
+            background-image: url(PK-en-20250602-TRIFECTA-perspective_aa6ff60c-bec9-4b25-8947-22d4d40344fc_large.jpg);
+            height: 70vh;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: max(1200px, 100vw);
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        nav>.logo>img {
+            height: 62px;
+            width: 122px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .box {
+            position: absolute;
+            top: 0px;
+            height: 80vh;
+            width: 100%;
+            background-color: black;
+            opacity: 0.44;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            position: relative;
+        }
+
+        .content>span:first-child {
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 900;
+        }
+
+        button {
+            padding: 2px;
+            padding-left: 4px;
+            padding-right: 4px;
+            position: relative;
+            z-index: 10;
+            border-radius: 5px;
+            height: 2rem;
+        }
+
+        .button>button:nth-child(1) {
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(91, 86, 86);
+            width: 5.5rem;
+            margin-right: 10px;
+        }
+
+        .button>button:nth-child(2) {
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+            margin-right: 10px;
+            width: 3.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <img src="Netflix_Logo_PMS.png" alt="">
+            </div>
+            <div class="button">
+                <button>English</button>
+                <button>Sign in</button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="content">
+            <span>Enjoy Big movies, hit Series and more from $149</span>
+            <span>Join today.Cancel anytime</span>
+            <span>Ready to watch?Enter to Create or restart your membership</span>
+        </div>
+    </main>
+</body>
+
+</html>

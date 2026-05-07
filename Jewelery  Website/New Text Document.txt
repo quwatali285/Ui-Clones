@@ -1,0 +1,50 @@
+🔧 Step-by-Step Fix Plan
+Step 1 – Extra <div> wrappers check karo
+
+Rule: Agar ek <div> sirf ek child ko wrap kar raha hai aur uska styling/structure mein koi role nahi → hata do.
+
+Tumhara kaam: Har section (Page1, Page2…) dekh kar wrappers identify karo.
+
+👉 Sabse pehle isko fix karo kyunki yeh sabse common aur easily noticeable mistake hai.
+
+Step 2 – CSS duplication hatana
+
+Tum bar-bar ek hi cheez likh rahe the, jaise:
+
+.page2>.right { width: 45vw; height: 100%; display: flex; flex-direction: column; }
+.page2>.right { width: 45vw; height: 100%; display: flex; flex-direction: column; }
+
+
+⚠ Yeh duplicate tha.
+
+Fix: sirf ek hi bar likho.
+
+Step 3 – Semantic tags use karo
+
+Tum sab jagah <div> use karte ho, jabke <header>, <main>, <section>, <footer> jyada sahi aur readable hotay hain.
+
+Isse code samajhna easy ho jata hai.
+
+Step 4 – Consistent naming karo
+
+Tumne kabhi .mainkamain, kabhi .mainkacenter, kabhi .mainkaleft likha. Yeh confusing hai.
+
+Fix: naam simple rakho jaise .hero, .hero-left, .hero-center.
+
+Step 5 – Reusable classes banao
+
+Tum font-size: 3.3em; background: linear-gradient(...) har heading pe repeat karte the.
+
+Fix: ek class bana lo .gradient-heading aur sab headings me use karo.
+
+📌 Order of Fixing
+
+Remove extra divs (sabse easy aur visible).
+
+Remove duplicate CSS.
+
+Apply semantic tags (header, section, footer).
+
+Rename classes consistently.
+
+Refactor common CSS into reusable classes.

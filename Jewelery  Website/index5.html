@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemestone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Common Gradient Text */
+    .gradient-text {
+      background: linear-gradient(45deg, black, black, rgb(255,174,0), black, black);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    /* Page4 Hover effect */
+    .award-box:hover {
+      background-color: #2a2a2a;
+      color: #fff;
+    }
+    .award-box:hover .part2 {
+      transform: rotate(375deg);
+      color: yellow;
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden font-sans">
+
+  <!-- PAGE 1 -->
+  <div class="min-h-[125vh] w-screen bg-[#ecf6fc]">
+    <nav class="h-[17vh] flex justify-between items-center w-[97vw] mx-auto">
+      <ul class="flex gap-14 text-sm">
+        <li><a href="#" class="hover:text-orange-500">Home</a></li>
+        <li><a href="#" class="hover:text-orange-500">Product</a></li>
+        <li><a href="#" class="hover:text-orange-500">Discover</a></li>
+        <li><a href="index3.html" class="hover:text-orange-500">Shop</a></li>
+      </ul>
+      <div class="flex gap-6">
+        <div class="cursor-pointer text-sm">Login</div>
+        <div class="cursor-pointer text-sm w-[90px] h-[50px] flex items-center justify-center bg-orange-500">Sign Up</div>
+      </div>
+    </nav>
+
+    <main class="h-[87vh]">
+      <div class="flex flex-col items-center justify-center h-[280px] text-[73px] tracking-[-2px] gap-2 gradient-text">
+        <h1>MINDFUL WAY FOR</h1>
+        <h1>ELEGANCY GEMESTONE</h1>
+      </div>
+
+      <div class="relative -top-10 flex justify-around items-center">
+        <!-- Left -->
+        <div class="flex flex-col self-start gap-4">
+          <div class="bg-black text-white text-center px-4 py-3 rounded-lg cursor-pointer">xxx</div>
+          <ul class="flex gap-2">
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+          </ul>
+          <ul class="flex gap-2">
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+            <li><img src="a.webp" class="h-[60px]" alt=""></li>
+          </ul>
+        </div>
+
+        <!-- Center -->
+        <div><img src="a.webp" class="h-[500px] w-[400px]" alt=""></div>
+
+        <!-- Right -->
+        <div class="w-[250px] -ml-6">
+          <div class="text-lg mb-1">Gold bracelet with diamond casino</div>
+          <div class="text-sm font-light text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quia excepturi enim praesentium possimus.
+          </div>
+          <div class="mt-5 border border-black px-3 py-2 w-fit font-bold text-sm cursor-pointer">Discover More</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="h-screen w-screen bg-white flex justify-center items-center gap-14">
+    <div class="w-[45vw] h-full flex flex-col justify-between">
+      <table class="w-full mt-8">
+        <tr class="flex justify-around">
+          <th class="text-2xl">10+</th>
+          <th class="text-2xl">20+</th>
+          <th class="text-2xl">598</th>
+        </tr>
+        <tr class="flex justify-around text-gray-600 font-light text-sm">
+          <td>All Over World</td>
+          <td>Product Available</td>
+          <td>Product Reviews</td>
+        </tr>
+      </table>
+
+      <div class="relative w-[95%] h-[63%] self-center flex gap-2 overflow-hidden -bottom-5">
+        <div class="w-1/2 flex flex-col gap-2">
+          <img src="s.jpg" class="h-1/2 object-cover">
+          <img src="s.jpg" class="h-1/2 object-cover">
+        </div>
+        <img src="s.jpg" class="w-1/2 object-fill">
+        <div class="absolute left-[38%] self-center h-20 w-20 bg-neutral-900 rounded-full border-[15px] border-white z-10"></div>
+      </div>
+    </div>
+
+    <div class="w-[45vw] h-full flex flex-col justify-between">
+      <div class="text-4xl w-[90%] mt-5 gradient-text">We Offer The Best Elegant Style</div>
+      <div class="relative -bottom-14 flex flex-col gap-6 w-[45vw]">
+        <div class="text-orange-500 text-lg">About Product</div>
+        <div class="text-[56px] leading-none gradient-text w-[90%]">Our Products are The World's Best Jewelry</div>
+        <div class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laboriosam perspiciatis dolorum nisi.</div>
+        <div class="border border-black w-[150px] h-10 flex items-center justify-center cursor-pointer">Check Verify</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div class="h-[98vh] w-screen flex flex-col">
+    <div class="h-[15%] w-screen bg-[#17212c] text-gray-200 flex justify-around items-center text-xl gap-[17vw]">
+      <div class="text-2xl">Checkout How our Product was proceed</div>
+      <div class="rotate-[340deg]">&rarr;</div>
+    </div>
+
+    <div class="mt-8 h-[15%] flex flex-col gap-2 items-start ml-[7vw]">
+      <div class="text-orange-400">Product Offer</div>
+      <div class="flex w-[88vw] justify-between items-center">
+        <div class="text-3xl gradient-text">Our Best Seller Products</div>
+        <div class="h-[30px] w-[100px] border border-black"></div>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center justify-center">
+      <div class="w-[85vw] flex justify-evenly gap-24 text-lg text-gray-800">
+        <div class="flex gap-2 hover:text-orange-400 cursor-pointer">Bracelet <span class="rotate-[345deg]">&rarr;</span></div>
+        <div class="flex gap-2 hover:text-orange-400 cursor-pointer">Earring <span class="rotate-[345deg]">&rarr;</span></div>
+        <div class="flex gap-2 hover:text-orange-400 cursor-pointer">Chain <span class="rotate-[345deg]">&rarr;</span></div>
+        <div class="flex gap-2 hover:text-orange-400 cursor-pointer">Pendant <span class="rotate-[345deg]">&rarr;</span></div>
+        <div class="flex gap-2 hover:text-orange-400 cursor-pointer">Diamond <span class="rotate-[345deg]">&rarr;</span></div>
+      </div>
+
+      <div class="mt-7 w-[88vw] flex justify-between items-start">
+        <div class="flex flex-col items-center w-[28vw] gap-2">
+          <img src="s.jpg" class="h-[37vh] w-[28vw]">
+          <div class="flex justify-between w-full">
+            <div>DIAMOND BANGLE</div>
+            <div class="text-sm px-2 bg-orange-400 rounded">Best Selling</div>
+          </div>
+          <div class="flex justify-between w-full text-sm">
+            <div>BRACELET</div>
+            <div>$4230.00</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center w-[28vw] gap-2">
+          <img src="s.jpg" class="h-[37vh] w-[28vw]">
+          <div class="flex justify-between w-full">
+            <div>TOURMALINE</div>
+            <div class="text-sm px-2 bg-orange-400 rounded">Best Selling</div>
+          </div>
+          <div class="flex justify-between w-full text-sm">
+            <div>AND DIAMOND</div>
+            <div>$4230.00</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center w-[28vw] gap-2">
+          <img src="s.jpg" class="h-[37vh] w-[28vw]">
+          <div class="flex justify-between w-full">
+            <div>VINTAGE ROSE</div>
+            <div class="text-sm px-2 bg-orange-400 rounded">Best Selling</div>
+          </div>
+          <div class="flex justify-between w-full text-sm">
+            <div>GOLD DIAMOND</div>
+            <div>$4230.00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div class="relative top-[20vh] h-[120vh] w-screen flex flex-col items-center gap-10">
+    <div class="text-orange-400">Achievement</div>
+    <h1 class="text-4xl gradient-text font-light">Awards in All International Jewelry</h1>
+    <div class="w-[70vw] text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa unde minus illum vitae dolores exercitationem explicabo.</div>
+
+    <div class="w-[80vw]">
+      <div class="award-box border-t-2 border-gray-400 flex justify-between items-start py-4 gap-20">
+        <div class="flex gap-12">
+          <h2 class="font-light">2022</h2>
+          <ul class="flex flex-col gap-2 list-none">
+            <li><h2>Italian Paladio Award</h2></li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          </ul>
+        </div>
+        <div class="part2 text-2xl font-bold">&rarr;</div>
+      </div>
+      <div class="award-box border-t-2 border-gray-400 flex justify-between items-start py-4 gap-20">
+        <div class="flex gap-12">
+          <h2 class="font-light">2021</h2>
+          <ul class="flex flex-col gap-2 list-none">
+            <li><h2>Compasso D'Oro</h2></li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          </ul>
+        </div>
+        <div class="part2 text-2xl font-bold">&rarr;</div>
+      </div>
+      <div class="award-box border-t-2 border-gray-400 flex justify-between items-start py-4 gap-20">
+        <div class="flex gap-12">
+          <h2 class="font-light">2020</h2>
+          <ul class="flex flex-col gap-2 list-none">
+            <li><h2>UK Jewelry Awards</h2></li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          </ul>
+        </div>
+        <div class="part2 text-2xl font-bold">&rarr;</div>
+      </div>
+      <div class="award-box border-t-2 border-b-2 border-gray-400 flex justify-between items-start py-4 gap-20">
+        <div class="flex gap-12">
+          <h2 class="font-light">2020</h2>
+          <ul class="flex flex-col gap-2 list-none">
+            <li><h2>USA The Couture Design Awards</h2></li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          </ul>
+        </div>
+        <div class="part2 text-2xl font-bold">&rarr;</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 5 -->
+  <div class="h-[150vh] bg-[#ecf6fc] flex flex-col justify-between">
+    <div class="flex flex-col items-center gap-10 mt-20">
+      <div class="text-orange-400">Let's know about us</div>
+      <h1 class="text-4xl gradient-text font-light">Don't Miss any Update</h1>
+      <div class="w-[51vw] text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa unde minus illum vitae dolores exercitationem explicabo.</div>
+    </div>
+
+    <div class="h-[65vh] w-screen bg-[#1a1e2a] flex flex-col justify-between">
+      <div class="flex flex-col items-center">
+        <div class="flex w-[90vw] justify-between border-b-2 border-gray-500 pb-10 mt-10">
+          <div class="flex flex-col text-white w-[30vw] gap-5">
+            <h2>GEMESTONE</h2>
+            <div class="text-sm font-light leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae autem neque Lorem, ipsum.</div>
+          </div>
+          <div class="flex gap-16 text-white text-sm">
+            <ul class="flex flex-col gap-3 list-none">
+              <li class="mb-2 font-bold">Introduction</li>
+              <li>Intro 1</li><li>Intro 2</li><li>Intro 3</li>
+            </ul>
+            <ul class="flex flex-col gap-3 list-none">
+              <li class="mb-2 font-bold">Show</li>
+              <li>Show 1</li><li>Show 2</li><li>Show 3</li>
+            </ul>
+            <ul class="flex flex-col gap-3 list-none">
+              <li class="mb-2 font-bold">Resources</li>
+              <li>Res 1</li><li>Res 2</li><li>Res 3</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex w-[90vw] justify-between text-white text-sm mt-4 mb-6">
+          <div>&copy; 2022 GEMESTONE all rights reserved</div>
+          <div>Terms & Conditions | Privacy Policy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
